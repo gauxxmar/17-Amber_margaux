@@ -44,6 +44,11 @@ h1 {
   margin: 50px 0 10px;
 }
 
+.h1_bardot {
+  font-family: glodok, sans-serif;
+  font-size: 30px;
+}
+
 .long {
   height: 1px;
   border: none;
@@ -142,6 +147,28 @@ h2 {
   margin-bottom: 130px;
 }
 
+.features_60 {
+  font-family: glodok, sans-serif;
+  font-size: 18px;
+  color: #2c2d48;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 180px;
+  margin-bottom: 0;
+}
+
+.features_bottom_60 {
+  font-family: glodok, sans-serif;
+  font-size: 18px;
+  color: #2c2d48;
+  text-align: right;
+  margin-top: 140px;
+  margin-left: 180px;
+  margin-right: 40px;
+  margin-bottom: 130px;
+}
+
 .ressellers {
   font-family: courier-std, monospace;
   font-weight: 400;
@@ -153,6 +180,12 @@ h2 {
 
 .ressellers_50 {
   font-family: 'sergio';
+  color: #2c2d48;
+  margin-bottom: 5px;
+}
+
+.ressellers_60 {
+  font-family: glodok, sans-serif;
   color: #2c2d48;
   margin-bottom: 5px;
 }
@@ -191,6 +224,10 @@ footer {
 
 .footer_50 {
   background-color: #b0cccc;
+}
+
+.footer_60 {
+  background-color: #e3d4af;
 }
 
 .container_footer {
@@ -264,12 +301,30 @@ footer h2 {
   margin: 50px 147px;
 }
 
+.button_price_60 {
+  padding: 10px;
+  background-color:#e3d4af;
+  font-family: courier-std, monospace;
+  font-size: 14px;
+  text-decoration: none;
+  color: #2c2d48;
+  margin: 50px 147px;
+}
+
 .hepburn {
   background-color: #c3e4e5;
 }
 
 .hepburn header {
   background-color: #b0cccc;
+}
+
+.bardot {
+  background-color: #ffefc2;
+}
+
+.bardot header {
+  background-color: #e3d4af;
 }
 
 .description {
@@ -291,6 +346,20 @@ footer h2 {
   transform: translate(-5%, -290px) rotate(-10deg);
 }
 
+.box_60 {
+  width: 210px;
+  position: absolute;
+  display: flex;
+  transform: translate(70%, -120px) rotate(15deg);
+}
+
+.box_bottom_60 {
+  width: 220px;
+  position: absolute;
+  display: flex;
+  transform: translate(-5%, -290px) rotate(-10deg);
+}
+
 .container_product {
   display: flex;
   flex-direction: row;
@@ -305,6 +374,24 @@ footer h2 {
 }
 
 .container_product img {
+  width: 150px;
+  margin-top: 40px;
+}
+
+.container_product_60 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 70px 25px;
+}
+
+.container_product_60 div {
+  width: 150px;
+  background-color: #e3d4af;
+  height: 220px;
+}
+
+.container_product_60 img {
   width: 150px;
   margin-top: 40px;
 }

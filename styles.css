@@ -1,0 +1,169 @@
+/*font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-family: glodok, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+@font-face {
+  font-family: 'heavy';
+  src: url('/font/heavy-heap.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'sergio';
+  src: url('/font/Sergio-Trendy.woff') format('woff');
+}
+
+html {
+  scroll-behavior: auto
+}
+
+body {
+  max-width: 380px;
+  margin: auto;
+  background-color: #f6ece3;
+}
+
+header {
+  background-color: #eddfd1;
+}
+
+header img {
+  width: 180px;
+  margin: auto;
+  display: flex;
+}
+
+.long {
+  height: 1px;
+  border: none;
+  background-color: black;
+}
+
+.nav_bar {
+  font-family: glodok, sans-serif;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav_bar a {
+  text-decoration: none;
+  color: #2c2d48;
+  font-size: 14px;
+}
+
+p {
+  font-family: courier-std, monospace;
+  font-size: 10px;
+  text-align: center;
+  margin: 50px 45px 0;
+}
+
+.second {
+  font-family: courier-std, monospace;
+  font-size: 10px;
+  text-align: center;
+  margin: 20px 45px 50px;
+}
+
+.poster {
+  width: 325px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  display: flex;
+}
+
+h2 {
+  font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.logo_media_markt {
+  width: 165px;
+  margin: auto;
+  display: flex;
+}
+
+.logo_galaxus {
+  width: 165px;
+  margin: auto;
+  display: flex;
+}
+
+.logo_boulanger {
+  width: 165px;
+  margin: auto;
+  display: flex;
+}
+
+.logo_fnac {
+  width: 123px;
+  margin: auto;
+  display: flex;
+}
+
+footer {
+  background-color: #eddfd1;
+  padding: 60px 20px 0;
+  height: 280px;
+}
+
+.container_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+footer nav img {
+  width: 25px;
+  margin-right: 20px;
+}
+
+footer nav a {
+  text-decoration: none;
+}
+
+.container_footer div {
+  width: 50%;
+}
+
+.last {
+  text-align: right;
+}
+
+.last p {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  margin: 0;
+}
+
+.last p:last-child {
+  top: 80px;
+}
+
+.logo_eikon {
+  width: 80px;
+}
+
+footer h2 {
+  text-align: left;
+}
+
+.arrow {
+  width: 90px;
+  position: absolute;
+  margin: 50px 0 65px;
+  left: 50%;
+  transform: translateX(-50px);
+}

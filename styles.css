@@ -8,12 +8,12 @@
 
 @font-face {
   font-family: 'heavy';
-  src: url('../17-Amber/font/heavy-heap.woff') format('woff'), 
+  src: url('font/HeavyHeap-Regular.woff') format('woff'), url('font/HeavyHeap-Regular.woff2')
 }
 
 @font-face {
   font-family: 'sergio';
-  src: url('../17-Amber/font/Sergio-Trendy.woff') format('woff');
+  src: url('font/Sergio-Trendy.woff') format('woff'), url('font/SergioTrendy-Regular.woff2')
 }
 
 html {
@@ -37,7 +37,7 @@ header img {
 }
 
 h1 {
-  font-family: sergio;
+  font-family: 'sergio';
   font-size: 36px;
   color: #2c2d48;
   text-align: center;
@@ -47,6 +47,11 @@ h1 {
 .h1_bardot {
   font-family: glodok, sans-serif;
   font-size: 30px;
+}
+
+.h1_fonda {
+  font-family: 'heavy';
+  font-size: 55px;
 }
 
 .long {
@@ -169,6 +174,28 @@ h2 {
   margin-bottom: 130px;
 }
 
+.features_70 {
+  font-family: 'heavy';
+  font-size: 24px;
+  color: #2c2d48;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 180px;
+  margin-bottom: 0;
+}
+
+.features_bottom_70 {
+  font-family: 'heavy';
+  font-size: 24px;
+  color: #2c2d48;
+  text-align: right;
+  margin-top: 140px;
+  margin-left: 180px;
+  margin-right: 40px;
+  margin-bottom: 130px;
+}
+
 .ressellers {
   font-family: courier-std, monospace;
   font-weight: 400;
@@ -188,6 +215,13 @@ h2 {
   font-family: glodok, sans-serif;
   color: #2c2d48;
   margin-bottom: 5px;
+}
+
+.ressellers_70 {
+  font-family: 'heavy';
+  color: #2c2d48;
+  margin-bottom: 5px;
+  font-size: 29px;
 }
 
 .logo_media_markt {
@@ -228,6 +262,10 @@ footer {
 
 .footer_60 {
   background-color: #e3d4af;
+}
+
+.footer_70 {
+  background-color: #c49682;
 }
 
 .container_footer {
@@ -311,6 +349,16 @@ footer h2 {
   margin: 50px 147px;
 }
 
+.button_price_70 {
+  padding: 10px;
+  background-color: #c49682;
+  font-family: courier-std, monospace;
+  font-size: 14px;
+  text-decoration: none;
+  color: #2c2d48;
+  margin: 50px 147px;
+}
+
 .hepburn {
   background-color: #c3e4e5;
 }
@@ -325,6 +373,14 @@ footer h2 {
 
 .bardot header {
   background-color: #e3d4af;
+}
+
+.fonda {
+  background-color: #efbca3;
+}
+
+.fonda header {
+  background-color: #c49682;
 }
 
 .description {
@@ -396,4 +452,21 @@ footer h2 {
   margin-top: 40px;
 }
 
+.container_product_70 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 70px 25px;
+}
+
+.container_product_70 div {
+  width: 150px;
+  background-color:#c49682;
+  height: 220px;
+}
+
+.container_product_70 img {
+  width: 150px;
+  margin-top: 40px;
+}
 
